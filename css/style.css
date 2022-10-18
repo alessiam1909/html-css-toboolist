@@ -19,12 +19,16 @@ h1 {
     font-size: 50px;
 }
 
+#menuIniziale, .contenitoreLista {
+    padding-left: 100px;
+}
+
 #contenitore1 {
     width: 1000px;
     height: 1300px;
     background-color: white;
     margin: 5% auto;
-    padding-left: 100px;
+   
 }
 
 button {
@@ -86,25 +90,32 @@ span {
     background-color: rgb(196, 84, 149);
 }
 
-
 .done::before{
     content: '✔';
+    width: 20px;
+    height:20px;
     border: 1px solid green;
     border-radius: 15px;
     color: green;
     padding: 2px;
     margin-right: 5px;
     font-size:15px;
+    display: inline-block;
+    text-align: center;
 }
 
 .undone::before {
     content: '✖';
+    width: 20px;
+    height:20px;
     border: 1px solid red;
     border-radius: 15px;
     color: red;
     padding: 2px;
     margin-right: 5px;
     font-size:15px;
+    display: inline-block;
+    text-align: center;
 }
 
 .contenitoreLista {
