@@ -7,7 +7,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(211, 211, 211, 0.5);
-
 }
 
 header {
@@ -18,7 +17,6 @@ header {
 h1 {
     display: inline-block;
     font-size: 50px;
-
 }
 
 #contenitore1 {
@@ -26,4 +24,57 @@ h1 {
     height: 1300px;
     background-color: white;
     margin: 5% auto;
+    padding-left: 100px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#bottoneAzzurro {
+    background-color: rgb(34, 116, 170);  
+    color: white;                          
+   
+}
+
+#bottoneBianco {
+    background-color: white; 
+    color: grey;                           
+   
+}
+
+hr {
+    border-color: lightgrey;
+    margin-left: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+.done::before{
+    content: '✔';
+    border: 1px solid green;
+    border-radius: 15px;
+    color: green;
+    padding: 2px;
+    margin-right: 5px;
+    font-size:15px;
+}
+
+.undone::before {
+    content: '✖';
+    border: 1px solid red;
+    border-radius: 15px;
+    color: red;
+    padding: 2px;
+    margin-right: 5px;
+    font-size:15px;
+}
+
+.contenitoreLista {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
