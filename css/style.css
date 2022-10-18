@@ -51,8 +51,42 @@ hr {
 }
 
 li {
-    display: inline-block;
+    display: block;
+    margin: 15px;
 }
+
+span {
+    font-size: smaller;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+   
+}
+
+.testoAzzurro {
+    background-color: rgb(51, 113, 196);
+}
+
+.testoViola {
+    background-color: rgb(106, 71, 187);
+}
+
+.testoVerde {
+    background-color: rgb(11, 104, 107);
+}
+
+.testoArancione {
+    background-color:rgb(219, 95, 23);
+}
+
+.testoGiallo {
+    background-color: rgb(186, 221, 57);
+}
+
+.testoRosa {
+    background-color: rgb(196, 84, 149);
+}
+
 
 .done::before{
     content: '✔';
